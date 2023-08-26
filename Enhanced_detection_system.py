@@ -48,6 +48,8 @@ def display_info_window():
     cv2.putText(info_frame, text, (10, 230), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
     cv2.imshow("Readings", info_frame)
 
+ellipse_major_axis = roi_height//2
+ellipse_minor_axis = roi_width//2
 
 # Main function
 def main():
